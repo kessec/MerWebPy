@@ -1,6 +1,6 @@
 import requests
 
-def query_database(key, word):
+def query_dictionary(key, word):
     _ = requests.get('https://dictionaryapi.com/api/v3/references/collegiate/json/' + word + '?key=' + key)
     _ = _.json()
     try:
