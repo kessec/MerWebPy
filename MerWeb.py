@@ -1,5 +1,3 @@
-import json
-import os
 import requests
 
 def query_database(key, word):
